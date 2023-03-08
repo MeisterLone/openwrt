@@ -94,7 +94,7 @@ define Device/askey_rt5010w-d187
 	BLOCKSIZE := 128k
 	PAGESIZE := 2048
 	SOC := ipq8072
-	DEVICE_PACKAGES := ipq-wifi-askey_rt5010w-d187
+	DEVICE_PACKAGES := ipq-wifi-askey_rt5010w-d187 e2fsprogs kmod-fs-ext4 losetup
 endef
 TARGET_DEVICES += askey_rt5010w-d187
 
