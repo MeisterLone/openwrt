@@ -13,6 +13,7 @@ case "$FIRMWARE" in
 	edgecore,eap102|\
 	edimax,cax1800|\
 	dynalink,dl-wrx36|\
+	askey,rt5010w-d187|\
 	qnap,301w|\
 	redmi,ax6|\
 	xiaomi,ax3600|\

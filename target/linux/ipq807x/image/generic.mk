@@ -86,6 +86,18 @@ define Device/qnap_301w
 endef
 TARGET_DEVICES += qnap_301w
 
+define Device/askey_rt5010w-d187
+	$(call Device/FitImage)
+	DEVICE_VENDOR := Askey
+	DEVICE_MODEL := RT5010W-D187
+	DEVICE_DTS_CONFIG := config@rt5010w-d187-rev6
+	BLOCKSIZE := 128k
+	PAGESIZE := 2048
+	SOC := ipq8072
+	DEVICE_PACKAGES := ipq-wifi-askey_rt5010w-d187
+endef
+TARGET_DEVICES += askey_rt5010w-d187
+
 define Device/redmi_ax6
 	$(call Device/xiaomi_ax3600)
 	DEVICE_VENDOR := Redmi

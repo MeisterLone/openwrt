@@ -29,6 +29,7 @@ ALLWIFIBOARDS:= \
 	buffalo_wxr-5950ax12 \
 	devolo_magic-2-wifi-next \
 	dynalink_dl-wrx36 \
+	askey_rt5010w-d187 \
 	edgecore_eap102 \
 	edgecore_ecw5410 \
 	edgecore_oap100 \
@@ -129,6 +130,7 @@ $(eval $(call generate-ipq-wifi-package,aruba_ap-365,Aruba AP-365))
 $(eval $(call generate-ipq-wifi-package,buffalo_wxr-5950ax12,Buffalo WXR-5950AX12))
 $(eval $(call generate-ipq-wifi-package,devolo_magic-2-wifi-next,devolo Magic 2 WiFi next))
 $(eval $(call generate-ipq-wifi-package,dynalink_dl-wrx36,Dynalink DL-WRX36))
+$(eval $(call generate-ipq-wifi-package,askey_rt5010w-d187,Askey RT5010W-D187))
 $(eval $(call generate-ipq-wifi-package,edgecore_eap102,Edgecore EAP102))
 $(eval $(call generate-ipq-wifi-package,edgecore_ecw5410,Edgecore ECW5410))
 $(eval $(call generate-ipq-wifi-package,edgecore_oap100,Edgecore OAP100))

@@ -69,6 +69,11 @@ platform_do_upgrade() {
 	edimax,cax1800)
 		nand_do_upgrade "$1"
 		;;
+	askey,rt5010w-d187)
+		kernelname="0:HLOS"
+		rootfsname="rootfs"
+		mmc_do_upgrade "$1"
+		;;
 	qnap,301w)
 		kernelname="0:HLOS"
 		rootfsname="rootfs"
