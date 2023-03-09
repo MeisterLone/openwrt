@@ -13,13 +13,15 @@ case "$FIRMWARE" in
 	edgecore,eap102|\
 	edimax,cax1800|\
 	dynalink,dl-wrx36|\
-	askey,rt5010w-d187|\
 	qnap,301w|\
 	redmi,ax6|\
 	xiaomi,ax3600|\
 	xiaomi,ax9000|\
 	zyxel,nbg7815)
 		caldata_extract "0:art" 0x1000 0x20000
+		;;
+	askey,rt5010w-d187)
+		caldata_extract_mmc "0:ART" 0x1000 0x20000
 		;;
 	esac
 	;;
